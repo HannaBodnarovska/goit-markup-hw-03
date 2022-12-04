@@ -73,6 +73,8 @@ h3 {
 
 .title-page {
     background-color: var(--dark);
+    padding-top: 192px;
+    padding-bottom: 192px;
 }
 
 .logo {
@@ -219,11 +221,11 @@ h3 {
 }
 
 .container {
-    width: 1182px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .top-line {
@@ -258,6 +260,7 @@ h3 {
 
 .skills-cards {
     flex-basis: calc((100%-72px)/4);
+    justify-content: space-between;
 }
 
 .skills h3 {
@@ -266,6 +269,7 @@ h3 {
 
 .examples {
     display: flex;
+    justify-content: space-between;
     column-gap: 24px;
     margin-top: 72px;
 }
@@ -276,6 +280,7 @@ h3 {
 
 .team-container {
     display: flex;
+    justify-content: space-between;
     column-gap: 24px;
     margin-top: 72px;
 }
@@ -304,6 +309,10 @@ h3 {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+
+.working-container li {
+    width: 360px;
 }
 
 .working-description {
