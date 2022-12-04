@@ -267,6 +267,10 @@ h3 {
     margin-bottom: 8px;
 }
 
+.examples-section {
+    padding-top: 0;
+}
+
 .examples {
     display: flex;
     justify-content: space-between;
