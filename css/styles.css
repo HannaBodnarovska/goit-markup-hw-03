@@ -334,6 +334,6 @@ h3 {
     margin-right: 24px;
 }
 
-.working-container li:nth-last-child(n+3) {
+.working-container li:nth-last-child(n+4) {
     margin-bottom: 48px;
 }
